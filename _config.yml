@@ -4,7 +4,7 @@ SEOTitle: 薛飞的博客 | xuefei Blog
 header-img: img/home-bg.jpg
 email: xuefei19901910@gmail.com
 description: "关于程序与设计、黑客与画家 | 薛飞，Web & Mobile Lover，Software Engineer | 这里是 @xuefei薛飞 的个人博客，与你一起发现更大的世界。"
-keyword: "薛飞, xuefei黄玄, xuefei, 薛飞的博客, xuefei Blog, 博客, 个人网站, 互联网, Web, java, 后端, 微服务,容器,docker,k8s"
+keyword: "薛飞, xuefei, 薛飞的博客, xuefei Blog, 博客, 个人网站, 互联网, Web, java, 后端, 微服务,容器,docker,k8s"
 url: "https://xuefei1990.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -15,7 +15,7 @@ future: true
 RSS: false
 weibo_username:     huxpro
 zhihu_username:     huxpro
-github_username:    huxpro
+github_username:    xuefei08213
 twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
@@ -78,8 +78,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "我们与世界相遇，我们与时间想蚀，我们必不辱使命，得以与众生相遇"
+sidebar-avatar: /img/xuefei.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
