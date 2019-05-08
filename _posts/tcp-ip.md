@@ -78,3 +78,8 @@ datagram（数据报），这是一个特殊的包，资源的标识信息以及
     <tr><td>7</td><td>物理层</td><td>Specifies connectors, data rates, and how bits are encoded on some media. Also describes low-level error detection and correction, plus frequency assignments.（）指定连接器，数据速率以及在某些介质上对位进行编码的方式。 还介绍了低级错误检测和纠正，以及频率分配。<strong>物理层定义了用于在诸如电话线或光纤电缆之类的通信介质上移动数字信息的方法,以太网和无线局域网（Wi-Fi）标准的部分内容在这里</strong>    </td></tr>
 </table>
 
+分层体系结构的主要优点之一是其执行协议多路复用的自然能力,这种多路复用形式允许多个不同的协议在同一基础设施上共存,它还允许同时使用相同协议对象（例如，连接）的多个实例，而不会混淆。
+多路复用可以发生在多层上，并且在每一层使用不同种类的标识符（identifier）确定哪个协议或者信息流属于一起
+
+当一层接收到其上层提供的PDU（Protocol Data unit）时，
+
