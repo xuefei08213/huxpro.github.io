@@ -32,20 +32,20 @@ tags:
 + 如果HashMap中不存在对应的数值，则加入HashMap中
 
 ```java
-    public int solutionWithMap(int[] nums) {
+public int solutionWithMap(int[] nums) {
 
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int num : nums) {
-            if (map.containsKey(num)) {
-                map.remove(num);
-            } else {
-                map.put(num, num);
-            }
+    Map<Integer, Integer> map = new HashMap<>();
+    for (int num : nums) {
+        if (map.containsKey(num)) {
+            map.remove(num);
+        } else {
+            map.put(num, num);
         }
-
-        return map.values().iterator().next();
-
     }
+
+    return map.values().iterator().next();
+
+}
 ```
 #### 算法解析
 - 时间复杂度：O(n)。遍历数组的时间复杂都为O(n)，操作HashMap为O(1)
@@ -77,14 +77,14 @@ XOR的运算规则如下：
 根据上面的结论，只要遍历数组，并将每个数值执行XOR操作即可，代码如下
 
 ```java
-    public int solutionXOR(int[] nums) {
-        
-        int result = 0;
-        for (int num : nums) {
-            result ^= num;
-        }
-        return result;
+public int solutionXOR(int[] nums) {
+    
+    int result = 0;
+    for (int num : nums) {
+        result ^= num;
     }
+    return result;
+}
 ```
 
 #### 算法解析
